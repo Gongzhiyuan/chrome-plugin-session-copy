@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>一键复制目标storage和cookie到当前标签</title>
+    <meta charset="utf-8">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        padding: 10px 15px;
+        border-radius: 5px;
+        width: 300px;
+        background-color: #e3e3e3;
+    }
+
+    .title {
+        text-align: center;
+        color: #2d5afa;
+        margin-bottom: 10px;
+    }
+
+    .container-input {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .container-input input {
+        padding: 5px;
+        margin-left: 5px;
+        flex: 1;
+    }
+
+    .button {
+        color: #Fff;
+        text-align: center;
+        background-color: #2d5afa;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="title">一键引用目标storage和cookie到当前标签</div>
+        <div class="container-input">
+            <p>目标地址</p>
+            <input id="localUrl" type="text">
+        </div>
+        <div class="button" id="submit">一键引用</div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+
+</html>
